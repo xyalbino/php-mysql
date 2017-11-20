@@ -1,0 +1,9 @@
+create table book1(
+     id int not null auto_increment,
+bookname varchar(50) not null default '',
+publisher varchar(50) not null default '',
+author varchar(30) not null default '',
+price double not null default 0.00,
+total int not null default 0,
+primary key(id)
+)
